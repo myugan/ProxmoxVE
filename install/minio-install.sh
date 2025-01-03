@@ -23,7 +23,7 @@ msg_info "Installing MinIO"
 $STD wget https://dl.min.io/server/minio/release/linux-amd64/archive/minio_20241218131544.0.0_amd64.deb -O minio.deb
 $STD dpkg -i minio.deb
 rm minio.deb
-msg_ok "Installed WireGuard"
+msg_ok "Installed MinIO"
 
 groupadd -r minio-user
 useradd -M -r -g minio-user minio-user
